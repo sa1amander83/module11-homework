@@ -10,8 +10,8 @@
 //или  так 
 function myFunc1(a) {
 	return function myFunc2(b) {
-  	return a + b;
+  	  return a + b;
   };
-}
+}  
 const summ = myFunc1(10);
 console.log(summ(7)); 
